@@ -2,7 +2,7 @@
   "name": "tic-tac-toe-kevin",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "homepage": "https://github.com/al064134-wq/Tictactoe",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,5 +16,18 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom --watchAll=false",
     "eject": "react-scripts eject"
+    
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
